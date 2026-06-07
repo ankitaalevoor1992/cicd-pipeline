@@ -11,7 +11,7 @@ start_time=time.time()
 def return_uptime():
    end_time=time.time()
    uptime=end_time-start_time
-   return flask.jsonify({"status":"UP","uptime": uptime})
+   return flask.jsonify({"status":"UP!!!","uptime": uptime})
 
 
 @app.route("/kill",methods=["GET"])
